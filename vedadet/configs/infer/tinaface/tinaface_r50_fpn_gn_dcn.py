@@ -96,7 +96,7 @@ infer_engine = dict(
     num_classes=num_classes,
     test_cfg=dict(
         min_bbox_size=0,
-        score_thr=0.01,
+        score_thr=0.4, ### fix threshold on your own
         nms=dict(
             typename='nms',
             iou_thr=0.45),
@@ -104,6 +104,7 @@ infer_engine = dict(
     use_sigmoid=use_sigmoid)
 
 # 4. weights
+### put your own file path
 weights = dict(filepath='/content/drive/MyDrive/rippleai/vedadet/weights/tinaface_r50_fpn_gn_dcn.pth')
 
 # 5. show
