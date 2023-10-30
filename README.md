@@ -29,7 +29,7 @@
 * `retinaface_inference.ipynb` 를 참고하셔서 inference 할 수 있습니다.
 
 ## SCRFD
-`scrfd_inference.ipynb` 를 참고하셔서 inference 할 수 있습니다.
+* `scrfd_inference.ipynb` 를 참고하셔서 inference 할 수 있습니다.
 
 ## TinaFace
-`tinaface_inference.ipynb` 를 참고하셔서 inference 할 수 있습니다.
+* `tinaface_inference.ipynb` 를 참고하셔서 inference 할 수 있습니다.
